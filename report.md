@@ -1,117 +1,75 @@
-﻿\---
+﻿
 
-\# Front matter
+# **Данные о работе**
 
 lang: ru-RU
 
-title: Оотчет по лабораторной работе №1"
+title: Отчет по лабораторной работе №1
 
-subtitle: "Филиппова Вероника"
+discipline: Математическое моделирование
 
-\# Formatting
+theme: Github, Markdown
 
-toc-title: "Содержание"
+student: Филиппова Вероника Сергеевна
 
-toc: true # Table of contents
+group:НКНбд-01-18
 
-toc\_depth: 2
+teacher: Кулябов Дмитрий Сергеевич
 
-lof: true # List of figures
-
-lot: true # List of tables
-
-fontsize: 12pt
-
-linestretch: 1.5
-
-papersize: a4paper
-
-documentclass: scrreprt
-
-polyglossia-lang: russian
-
-polyglossia-otherlangs: english
-
-mainfont: PT Serif
-
-romanfont: PT Serif
-
-sansfont: PT Sans
-
-monofont: PT Mono
-
-mainfontoptions: Ligatures=TeX
-
-romanfontoptions: Ligatures=TeX
-
-sansfontoptions: Ligatures=TeX,Scale=MatchLowercase
-
-monofontoptions: Scale=MatchLowercase
-
-indent: true
-
-pdf-engine: lualatex
-
-header-includes:
-
-- \linepenalty=10 # the penalty added to the badness of each line within a paragraph (no associated penalty node) Increasing the value makes tex try to have fewer lines in the paragraph.
-- \interlinepenalty=0 # value of the penalty (node) added after each line of a paragraph.
-- \hyphenpenalty=50 # the penalty for line breaking at an automatically inserted hyphen
-- \exhyphenpenalty=50 # the penalty for line breaking at an explicit hyphen
-- \binoppenalty=700 # the penalty for breaking a line at a binary operator
-- \relpenalty=500 # the penalty for breaking a line at a relation
-- \clubpenalty=150 # extra penalty for breaking after first line of a paragraph
-- \widowpenalty=150 # extra penalty for breaking before last line of a paragraph
-- \displaywidowpenalty=50 # extra penalty for breaking before last line before a display math
-- \brokenpenalty=100 # extra penalty for page breaking after a hyphenated line
-- \predisplaypenalty=10000 # penalty for breaking before a display
-- \postdisplaypenalty=0 # penalty for breaking after a display
-- \floatingpenalty = 20000 # penalty for splitting an insertion (can only be split footnote in standard LaTeX)
-- \raggedbottom # or \flushbottom
-- \usepackage{float} # keep figures where there are in the text
-- \floatplacement{figure}{H} # keep figures where there are in the text
-
-\---
-
-\# \*\*Цель работы\*\*
+# **Цель работы**
 
 Узнать как работать с github, а также познакомиться
 
 с основными возможностями разметки Markdown.
 
-\# \*\*Задание\*\*
+# **Задачи**
 
 1. Создать репозиторий на github.com
-1. Создать и загрузить файлы на github.com
-1. Сделать коммит и пуш
-1. Создать и подключить ssh ключ
-1. Сделать релиз на github.com
-1. Оформить и загрузить отчет и презентацию в 3 форматах doc,pdf,md.
+2. Создать и загрузить файлы на github.com
+3. Сделать коммит и пуш
+4. Создать и подключить ssh ключ
+5. Сделать релиз на github.com
+6. Оформить и загрузить отчет и презентацию в 3 форматах doc,pdf,md.
 
-\# \*\*Выполнение лабораторной работы\*\*
 
-1. \*Создала репозиторий на гитхаб (рис.1)\*
+# **Объект и предмет исследования**
 
-![Рис.1](scrn/1.jpg){ #fig:001 width=70% }
+Github, Markdown
 
-1. \*Создала и загрузила файлы на гитхаб (рис.2)\*
+# **Cписок иллюстраций**
+1. /scrn/1.jpg
+2. /scrn/2.jpg
+3. /scrn/3.jpg
+4. /scrn/4.jpg
+5. /scrn/5.jpg
+6. /scrn/6.jpg
 
-![Рис.2](scrn/5.jpg){ #fig:002 width=70% }
+# **Выполнение лабораторной работы**
 
-1. \*Сделать коммит и пуш (рис.3)\*
+1. *Создала репозиторий на гитхаб (рис.1)*
 
-![Рис.3](scrn/6.jpg){ #fig:003 width=70% }
+![Рис.1](scrn/1.jpg){ Рис.1 }
 
-1. \*Создала и подключила ssh ключ\*
+2. *Создала и загрузила файлы на гитхаб (рис.2)*
 
-![Рис.4](scrn/2.jpg){ #fig:004 width=70% }
+![Рис.2](scrn/5.jpg){ Рис.2 }
 
-![Рис.5](scrn/3.jpg){ #fig:005 width=70% }
+3. *Сделать коммит и пуш (рис.3)*
 
-1. \*Сделала релиз на github.com\*
+![Рис.3](scrn/6.jpg){ Рис.3 }
 
-![Рис.6](scrn/4.jpg){ #fig:006 width=70% }
+4. *Создала и подключила ssh ключ*
 
-\# \*\*Выводы\*\*
+![Рис.4](scrn/2.jpg){ Рис.4 }
+
+![Рис.5](scrn/3.jpg){ Рис.5 }
+
+5. *Сделала релиз на github.com*
+
+![Рис.6](scrn/4.jpg){ Рис.6 }
+
+6. *Оформила и загрузила отчет и презентацию*
+
+# **Выводы**
 
 Научилась работать с github.com, а так же познакомилась с основными разметками Markdown.
